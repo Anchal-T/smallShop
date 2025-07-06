@@ -1,11 +1,20 @@
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Environment } from '@react-three/drei'
 import { Model } from './Model'
+import { Navbar } from './Navbar'
+import { HeroSection } from './HeroSection'
 import './App.css'
 
 function App() {
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
+      {/* Navbar */}
+      <Navbar />
+      
+      {/* Hero Section with text overlay */}
+      <HeroSection />
+      
+      {/* 3D Background Scene */}
       <Canvas
         camera={{
           position: [-5, 5, 5],
