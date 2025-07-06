@@ -5,7 +5,7 @@ export function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <span className="brand-text">etail.me</span>
+        <span className="brand-text">DataLoom</span>
       </div>
       
       <div className="navbar-menu">
@@ -16,7 +16,7 @@ export function Navbar() {
       
       <div className="navbar-actions">
         <button className="login-btn">Login</button>
-        <button className="start-selling-btn">Start selling</button>
+        <button className="start-selling-btn">Sign Up</button>
       </div>
     </nav>
   )
