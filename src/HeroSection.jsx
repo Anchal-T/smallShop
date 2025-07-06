@@ -19,8 +19,8 @@ export function HeroSection() {
         
         <div className="store-input-container">
           <div className="input-wrapper">
-            <span className="store-icon">🏪</span>
-            <span className="input-label">My prompt</span>
+            <span className="store-icon"></span>
+            <span className="input-label">try</span>
             <input 
               type="text" 
               placeholder="your prompt"

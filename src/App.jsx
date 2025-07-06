@@ -17,8 +17,8 @@ function App() {
       {/* 3D Background Scene */}
       <Canvas
         camera={{
-          position: [-5, 5, 5],
-          fov: 20
+          position: [-5, 3, 5],
+          fov: 15
         }}
         shadows
       >
