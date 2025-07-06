@@ -8,8 +8,8 @@ function App() {
     <div style={{ width: '100vw', height: '100vh' }}>
       <Canvas
         camera={{
-          position: [5, 5, 5],
-          fov: 50
+          position: [-5, 5, 5],
+          fov: 20
         }}
         shadows
       >
